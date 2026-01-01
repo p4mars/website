@@ -1,6 +1,6 @@
 ---
 name: Reza Sabzevari
-image: images/photo.jpg
+image: https://t.e7096c671.entry.domains/TXOSatwU2lfv7ieI3_juPcVYURQ=/278x371/filters:strip_exif()/https%3A%2F%2Ffilelist.tudelft.nl%2FPersonen%2F3rq9qu.jpg%3Fhash%3Deb64ea87c6
 role: principal-investigator
 affiliation: Delft University of Technology
 aliases:

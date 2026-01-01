@@ -9,4 +9,5 @@ aliases:
   - Edward
 links:
   email: jingkun.feng@tudelft.nl
+  github: https://github.com/EdwardjkFeng
 ---
