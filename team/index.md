@@ -32,4 +32,4 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% endcapture %} -->
 
-{% include grid.html style="square" content=content %}
+<!-- {% include grid.html style="square" content=content %} -->

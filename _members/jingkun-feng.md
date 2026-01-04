@@ -1,6 +1,6 @@
 ---
 name: Jingkun (Edward) Feng
-image: images/photo.jpg
+image: images/j_feng.jpg
 # description: Lead Programmer
 role: phd
 aliases:
