@@ -31,4 +31,4 @@ If you do not find an interesting project, but you would like to join our group,
 
 In the following link you can find a list of available MSc projects. For announced projects, please first contact the daily supervisor to discuss the project.
 
-{% include post-excerpt.html lookup="Master Projects" %}
+{% include post-excerpt.html lookup="master-projects" %}
