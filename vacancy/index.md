@@ -9,7 +9,7 @@ nav:
 
 We are always looking for experienced researchers, passionate perspective and thesis students. If you are interested in working with us, please go through the open posiitons first. If you cannot find suitable positions, you are welcome to initiate an application with a detailed description of topics that you want to work on.
 
-{% include section.html %}
+<!-- {% include section.html %}
 
 {% include search-box.html %}
 
@@ -17,7 +17,7 @@ We are always looking for experienced researchers, passionate perspective and th
 
 {% include search-info.html %}
 
-{% include list.html data="posts" component="post-excerpt" %}
+{% include list.html data="posts" component="post-excerpt" %} -->
 
 {% include section.html %}
 
@@ -31,4 +31,4 @@ If you do not find an interesting project, but you would like to join our group,
 
 In the following link you can find a list of available MSc projects. For announced projects, please first contact the daily supervisor to discuss the project.
 
-{% include list.html data="vacancies" lookup="master-projects" %}
+{% include lpost-excerpt.html lookup="master-projects" %}
