@@ -1,6 +1,6 @@
 ---
 name: Jingkun (Edward) Feng
-image: images/photo.jpg
+image: images/j_feng.jpg
 # description: Lead Programmer
 role: phd
 aliases:
@@ -9,4 +9,5 @@ aliases:
   - Edward
 links:
   email: jingkun.feng@tudelft.nl
+  github: https://github.com/EdwardjkFeng
 ---
