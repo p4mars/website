@@ -1,0 +1,32 @@
+.float {
+  display: contents;
+}
+
+.float > * {
+  margin: 0 !important;
+}
+
+/* Member page two-column layout */
+.member-layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.member-layout-left {
+  /* Left column: portrait and links */
+}
+
+.member-layout-right {
+  /* Right column: content */
+}
+
+@media (max-width: 600px) {
+  .member-layout {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+/*# sourceMappingURL=float.css.map */
