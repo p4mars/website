@@ -1,77 +1,63 @@
 ---
 title: Contact
 nav:
-  order: 5
+  order: 7
   tooltip: Email, address, and location
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<p class="center" style="font-size: 1.3em;">We are allways interested to collaborate and meet new colleagues, do not hesitate to reach out.</p>
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  link="P4MARS-AE@tudelft.nl"
 %}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%}
-{%
+<!-- {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
-%}
+  link="https://maps.app.goo.gl/aGo3qTV3fbQ7GBRGA"
+%} -->
 
-{% include section.html %}
+{% capture map_embed %}
+<iframe
+  src="https://www.google.com/maps?q=TU+Delft+Faculty+of+Aerospace+Engineering,+Kluyverweg+1,+2629+HS+Delft&output=embed"
+  width="100%"
+  height="100%"
+  style="border: 0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+{% endcapture %}
 
-{% capture col1 %}
+{% capture contact_text %}
+
+<div class="center">
+
+<b>TU Delft Faculty of Aerospace Engineering</b>
+<br>Kluyverweg 1, 2629 HS Delft, The Netherlands
+
+</div>
+
+{% endcapture %}
+
+<style>
+.feature-compact {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+</style>
 
 {%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  include feature.html
+  embed=map_embed
+  title="Address"
+  text=contact_text
+  flip=true
+  class="feature-compact"
 %}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}

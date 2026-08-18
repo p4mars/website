@@ -1,9 +1,12 @@
 # site properties and page defaults
-title: P4MARS
-subtitle: 
+title: P4MARS Lab
+subtitle: <strong>P</strong>erception and <strong>A</strong>I for <strong>M</strong>anufacturing, <strong>R</strong>obotics, and <strong>S</strong>pace
 description: P4MARS is an interdisciplinary research group focused on Perception and AI for Manufacturing, Robotics, and Space.
 # header: images/background.jpg
 # footer: images/background.jpg
+logo-text: true
+header-dark: false
+footer-dark: false
 proofer: false
 
 # site social media and other links
@@ -11,7 +14,7 @@ links:
   # email: contact@p4mars.com
   # orcid: 0000-0001-8713-9213
   # google-scholar: ETJoidYAAAAJ
-  # github: p4mars
+  github: github.com/p4mars
   # twitter: p4mars
   # youtube: p4mars
 

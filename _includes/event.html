@@ -1,0 +1,61 @@
+{% if include.lookup %}
+  {% assign event = site.data.events
+    | where_exp: "event", "event.id == include.lookup or event.title contains include.lookup"
+    | first
+    | default: include
+  %}
+{% else %}
+  {% assign event = include %}
+{% endif %}
+
+<div class="event">
+  <div class="event-content">
+    <div class="event-text">
+      <div class="event-title-row">
+        {% if event.link %}
+          <a class="event-title" href="{{ event.link | relative_url | uri_escape }}">
+            {{ event.title | default: "[no title info]" }}
+          </a>
+        {% else %}
+          <div class="event-title">{{ event.title | default: "[no title info]" }}</div>
+        {% endif %}
+      </div>
+
+      {% if event.description %}
+        <p class="event-description">
+          {{
+            event.description
+            | markdownify
+            | remove: "<p>"
+            | remove: "</p>"
+          }}
+        </p>
+      {% endif %}
+
+      <div class="event-meta" data-search="{{ event.venue }} {{ event.date }} {{ event.end_date }}">
+        <span class="event-date">
+          {{ event.date | date: "%b %-d, %Y" }}
+          {% if event.end_date %}
+            - {{ event.end_date | date: "%b %-d, %Y" }}
+          {% endif %}
+        </span>
+        {% if event.venue %}
+          <span class="event-sep">·</span>
+          <span class="event-venue">{{ event.venue }}</span>
+        {% endif %}
+      </div>
+    </div>
+    {% if event.image %}
+      {% assign event_image = event.image | relative_url | uri_escape %}
+      {% if event.link %}
+        <a href="{{ event.link | relative_url | uri_escape }}" class="event-image" aria-label="{{ event.title | default: 'event image' | regex_strip }}">
+          <img src="{{ event_image }}" alt="{{ event.title | default: 'event image' | regex_strip }}" loading="lazy" {% include fallback.html %}>
+        </a>
+      {% else %}
+        <div class="event-image" aria-label="{{ event.title | default: 'event image' | regex_strip }}">
+          <img src="{{ event_image }}" alt="{{ event.title | default: 'event image' | regex_strip }}" loading="lazy" {% include fallback.html %}>
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
+</div>

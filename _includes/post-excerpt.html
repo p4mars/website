@@ -38,6 +38,7 @@
         published=post.date
         updated=post.last_modified_at
         tags=post.tags
+        show_author_image=false
       %}
 
       {% assign excerpt = post.content
@@ -55,6 +56,16 @@
       <p data-search="{{ search }}">
         {{ excerpt }}
       </p>
+
+      {% if post.pdf %}
+        {%
+          include button.html
+          icon="fa-solid fa-download"
+          text="Download PDF"
+          link=post.pdf
+          style="bare"
+        %}
+      {% endif %}
     </div>
   </div>
 </div>

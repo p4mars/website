@@ -3,6 +3,9 @@
 
 $wrap: 800px;
 
+$feature-image-width: 40%;
+$feature-text-width: 55%;
+
 .feature {
   display: flex;
   justify-content: center;
@@ -13,7 +16,7 @@ $wrap: 800px;
 
 .feature-image {
   flex-shrink: 0;
-  width: 40%;
+  width: $feature-image-width;
   aspect-ratio: 3 / 2;
   border-radius: var(--rounded);
   overflow: hidden;
@@ -26,8 +29,16 @@ $wrap: 800px;
   object-fit: cover;
 }
 
+.feature-image[data-fit="contain"] {
+  background: #fff;
+}
+
+.feature-image[data-fit="contain"] img {
+  object-fit: contain;
+}
+
 .feature-text {
-  flex-grow: 1;
+  flex: 0 0 $feature-text-width; max-width: $feature-text-width;
 }
 
 .feature-title {

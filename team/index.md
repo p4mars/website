@@ -1,8 +1,8 @@
 ---
 title: Team
 nav:
-  order: 3
-  tooltip: About our team
+  order: 4
+  tooltip: Members of our lab
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
@@ -12,24 +12,16 @@ incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. -->
 
 {% include section.html %}
+## Faculty
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+## Research Scientist
+### Postdoc
+{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
 
-<!-- {% include section.html background="images/background.jpg" dark=true %}
+### PhD
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Master students
 
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %} -->
+### Alumni
