@@ -8,9 +8,11 @@ P4MARS is an interdisciplinary research group focused on Perception and AI for M
 {% include section.html %}
 
 ## News
+
+{% include list.html data="events" component="event" lookup="ICRA26"%}
 {%
   include button.html
-  link="posts"
+  link="events"
   text="See all events"
   icon="fa-solid fa-arrow-right"
   flip=true
