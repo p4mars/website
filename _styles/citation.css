@@ -13,7 +13,7 @@
 
 .citation-image {
   position: relative;
-  width: 180px;
+  width: 200px;
   flex-shrink: 0;
 }
 
@@ -48,6 +48,7 @@
 
 .citation-title {
   font-weight: var(--semi-bold);
+  text-decoration: none;
 }
 
 .citation-text > .icon {
@@ -62,6 +63,14 @@
 
 .citation-publisher {
   text-transform: capitalize;
+}
+
+.citation-meta-line {
+  line-height: 1.4;
+}
+
+.citation-meta-line + .citation-meta-line {
+  margin-top: 2px;
 }
 
 .citation-description {
@@ -90,7 +99,7 @@
   }
   .citation-image {
     width: unset;
-    height: 180px;
+    height: 200px;
   }
 }
 

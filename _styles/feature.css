@@ -21,8 +21,17 @@
   object-fit: cover;
 }
 
+.feature-image[data-fit=contain] {
+  background: #fff;
+}
+
+.feature-image[data-fit=contain] img {
+  object-fit: contain;
+}
+
 .feature-text {
-  flex-grow: 1;
+  flex: 0 0 55%;
+  max-width: 55%;
 }
 
 .feature-title {

@@ -28,8 +28,8 @@
 .post-excerpt-text {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px 30px;
+  gap: 10px;
+  padding: 10px 30px 10px 30px;
   text-align: left;
 }
 
@@ -40,6 +40,7 @@
 .post-excerpt-text > a:first-child {
   width: 100%;
   font-weight: var(--semi-bold);
+  text-decoration: none;
 }
 
 .post-excerpt-text > div {
