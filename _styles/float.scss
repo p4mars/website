@@ -4,35 +4,32 @@
 $wrap: 600px;
 
 .float {
-  margin-bottom: 20px;
-  max-width: 50%;
+  display: contents;
 }
 
 .float > * {
   margin: 0 !important;
 }
 
-.float:not([data-flip]) {
-  float: left;
-  margin-right: 40px;
+/* Member page two-column layout */
+.member-layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
+  align-items: start;
 }
 
-.float[data-flip] {
-  float: right;
-  margin-left: 40px;
+.member-layout-left {
+  /* Left column: portrait and links */
 }
 
-.float[data-clear] {
-  float: unset;
-  clear: both;
-  margin: 0;
+.member-layout-right {
+  /* Right column: content */
 }
 
 @media (max-width: $wrap) {
-  .float {
-    float: unset !important;
-    clear: both !important;
-    margin: auto !important;
-    max-width: unset;
+  .member-layout {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }

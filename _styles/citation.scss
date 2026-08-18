@@ -1,7 +1,7 @@
 ---
 ---
 
-$thumb-size: 180px;
+$thumb-size: 200px;
 $wrap: 800px;
 
 .citation-container {
@@ -55,6 +55,7 @@ $wrap: 800px;
 
 .citation-title {
   font-weight: var(--semi-bold);
+  text-decoration: none;
 }
 
 .citation-text > .icon {
@@ -69,6 +70,14 @@ $wrap: 800px;
 
 .citation-publisher {
   text-transform: capitalize;
+}
+
+.citation-meta-line {
+  line-height: 1.4;
+}
+
+.citation-meta-line + .citation-meta-line {
+  margin-top: 2px;
 }
 
 .citation-description {

@@ -9,6 +9,7 @@ aliases:
 links:
   home-page: https://www.tudelft.nl/en/staff/r.sabzevari/
   # orcid: 0000-0001-8713-9213
+hide_research_link: true
 ---
 
 Reza is an Associate Professor of Robotics and Perception. He leads the p4MARS Lab: an interdisciplinary research group focused on Perception and AI for Manufacturing, Robotics, and Space. 

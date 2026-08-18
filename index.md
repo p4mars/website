@@ -1,11 +1,22 @@
 ---
 ---
 
-# P4MARS Lab
+## Research Interest
 
 P4MARS is an interdisciplinary research group focused on Perception and AI for Manufacturing, Robotics, and Space. Our research interests include geometric and semantic scene understanding, active perception, and distributed perception, with the application to robotics in manufacturing and space domains.
 
 {% include section.html %}
+
+## News
+{%
+  include button.html
+  link="posts"
+  text="See all events"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
 
 ## Highlights
 
@@ -26,15 +37,14 @@ P4MARS is an interdisciplinary research group focused on Perception and AI for M
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/research/T-FunS3D_teaser.png"
+  fit="contain"
   link="research"
   title="Our Research"
   text=text
 %}
 
 {% capture text %}
-
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. -->
 
 {%
   include button.html
@@ -59,8 +69,6 @@ P4MARS is an interdisciplinary research group focused on Perception and AI for M
 
 {% capture text %}
 
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. -->
-
 {%
   include button.html
   link="team"
@@ -72,6 +80,7 @@ P4MARS is an interdisciplinary research group focused on Perception and AI for M
 
 {% endcapture %}
 
+<!-- ToDo: Add group picture -->
 {%
   include feature.html
   image="images/photo.jpg"

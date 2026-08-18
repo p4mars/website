@@ -1,255 +1,229 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1016/j.patter.2026.101514
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.1109/ICCVW60793.2023.00236
+  title: Do Planar Constraints Improve Camera Pose Estimation in Monocular SLAM?
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: Patterns
-  date: '2026-05-01'
-  link: https://doi.org/hbvg3p
-  orcid: 0000-0002-4655-3773
+  - Charlotte Arndt
+  - Reza Sabzevari
+  - Javier Civera
+  publisher: 2023 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)
+  date: '2023-10-02'
+  link: https://doi.org/hcf3x9
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.1109/IROS45743.2020.9340805
+  title: From Points to Planes - Adding Planar Constraints to Monocular SLAM Factor
+    Graphs
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: openRxiv
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
+  - Charlotte Arndt
+  - Reza Sabzevari
+  - Javier Civera
+  publisher: 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  date: '2020-10-24'
+  link: https://doi.org/gkzjhd
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1007/s10514-017-9634-0
+  title: A comparison of volumetric information gain metrics for active 3D object
+    reconstruction
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - Jeffrey Delmerico
+  - Stefan Isler
+  - Reza Sabzevari
+  - Davide Scaramuzza
+  publisher: Autonomous Robots
+  date: '2017-04-22'
+  link: https://doi.org/gcznct
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.1109/TRO.2016.2552548
+  title: Multi-body Motion Estimation from Monocular Vehicle-Mounted Cameras
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: openRxiv
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  - Reza Sabzevari
+  - Davide Scaramuzza
+  publisher: IEEE Transactions on Robotics
+  date: '2016-06-01'
+  link: https://doi.org/f8sr5p
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1109/ICRA.2016.7487527
+  title: An information gain formulation for active volumetric 3D reconstruction
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Stefan Isler
+  - Reza Sabzevari
+  - Jeffrey Delmerico
+  - Davide Scaramuzza
+  publisher: 2016 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2016-05-01'
+  link: https://doi.org/ggdcqz
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1038/srep25777
+  title: Natural lecithin promotes neural network complexity and activity
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: openRxiv
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - Shahrzad Latifi
+  - Ali Tamayol
+  - Rouhollah Habibey
+  - Reza Sabzevari
+  - Cyril Kahn
+  - David Geny
+  - Eftekhar Eftekharpour
+  - Nasim Annabi
+  - Axel Blau
+  - Michel Linder
+  - Elmira Arab-Tehrany
+  publisher: Scientific Reports
+  date: '2016-05-27'
+  link: https://doi.org/f8pqvp
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1109/ICRA.2014.6906585
+  title: Monocular simultaneous multi-body motion segmentation and reconstruction
+    from perspective views
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - Reza Sabzevari
+  - Davide Scaramuzza
+  publisher: 2014 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2014-05-01'
+  link: https://doi.org/ghk3rg
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
+- id: doi:10.1109/3DIMPVT.2012.74
+  title: Multi-view Photometric Stereo Using Semi-isometric Mappings
   authors:
-  - Faisal S Alquaddoomi
-  - Joseph T Burke
-  - Lo Sosinski
-  - David A Mayer
-  - Evan P Brenner
-  - Samuel Z Chen
-  - Jacob D Krol
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: openRxiv
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  - Reza Sabzevari
+  - Alessio Del Bue
+  - Vittorio Murino
+  publisher: 2012 Second International Conference on 3D Imaging, Modeling, Processing,
+    Visualization &amp; Transmission
+  date: '2012-10-01'
+  link: https://doi.org/hcf3zb
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1109/ICIP.2012.6466785
+  title: Piecewise single view Photometric Stereo with multi-view constraints
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Reza Sabzevari
+  - Alessio Del Bue
+  - Vittorio Murino
+  publisher: 2012 19th IEEE International Conference on Image Processing
+  date: '2012-09-01'
+  link: https://doi.org/hcf3zc
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
+- id: doi:10.1007/978-3-642-24085-0_67
+  title: Structure from Motion and Photometric Stereo for Dense 3D Shape Recovery
   authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
+  - Reza Sabzevari
+  - Alessio Del Bue
+  - Vittorio Murino
+  publisher: Lecture Notes in Computer Science
+  date: '2011-01-01'
+  link: https://doi.org/c96cmd
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.neucom.2008.05.011
+  title: Three-phase strategy for the OSD learning method in RBF neural networks
+  authors:
+  - Gh. A. Montazer
+  - Reza Sabzevari
+  - Fatemeh Ghorbani
+  publisher: Neurocomputing
+  date: '2009-03-01'
+  link: https://doi.org/c36d7v
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ISMA.2008.4648802
+  title: Improvement of learning rate for RBF neural networks in a helicopter sound
+    identification system introducing two-phase OSD learning method
+  authors:
+  - Gh. A. Montazer
+  - Reza Sabzevari
+  - Fatemeh Ghorbani
+  publisher: 2008 5th International Symposium on Mechatronics and Its Applications
+  date: '2008-05-01'
+  link: https://doi.org/dv6fzz
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ISMA.2008.4648837
+  title: Object detection and localization system based on neural networks for Robo-Pong
+  authors:
+  - Reza Sabzevari
+  - A. Shahri
+  - A.R. Fasih
+  - Saeid Masoumzadeh
+  - Mahdi Rezaei Ghahroudi
+  publisher: 2008 5th International Symposium on Mechatronics and Its Applications
+  date: '2008-05-01'
+  link: https://doi.org/b8gt37
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.neucom.2007.08.002
+  title: Improvement of learning algorithms for RBF neural networks in a helicopter
+    sound identification system
+  authors:
+  - Gh.A. Montazer
+  - Reza Sabzevari
+  - H.Gh. Khatir
+  publisher: Neurocomputing
+  date: '2007-12-01'
+  link: https://doi.org/c7f22d
+  orcid: 0000-0002-6309-5890
+  reza-sabzevari: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: 10.48550/arXiv.2606.05975
+  title: 'T-FunS3D: Task-Driven Hierarchical Open-Vocabulary 3D Functionality Segmentation'
+  authors:
+  - Jingkun Feng
+  - Reza Sabzevari
+  publisher: IEEE Intl. Conf. on Robotics and Automation (ICRA) 2026
+  date: '2026-06-01'
+  link: https://doi.org/hcf3w2
+  type: paper
+  description: We introduce T-FunS3D, a task-driven hierarchical open-vocabulary 3D
+    functionality segmentation method that provides actionable perception for robotic
+    applications.
+  image: https://t-funs3d.github.io/static/images/T-FunS3D%20teaser.png
+  buttons:
+  - type: paper
+    text: PDF
+    link: https://arxiv.org/abs/2606.05975v1
+  - type: website
+    link: https://t-funs3d.github.io/
+  - type: source
+    text: Github
+    link: https://github.com/EdwardjkFeng/T-FunS3D
+  tags:
+  - Scene Understanding
+  - Scene Graph
+  - Robotics
   plugin: sources.py
   file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: openRxiv
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml

@@ -1,0 +1,16 @@
+# Add one item per event. Events are grouped by year using "date".
+# Fields: title, description, date, end_date (optional), venue (optional), link (optional), image (optional)
+
+- title: International Conference on Robotics and Automation (ICRA) 2026
+  description: Meet the group at ICRA26 in Vienna and learn about our latest research on open-vocabulary 3D functionality segmentation for robotics.
+  date: "2026-06-01"
+  end_date: "2026-06-05"
+  venue: VIECON / Messe Wien, Vienna, Austria
+  link: https://2026.ieee-icra.org/
+  image: images/events/icra26.png
+
+# - title: Lab Open Day
+#   description: Public demo day with project posters and robot demonstrations.
+#   date: "2025-10-11"
+#   venue: Delft
+#   image: images/photo.jpg

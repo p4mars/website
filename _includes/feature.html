@@ -1,14 +1,20 @@
 <div
-  class="feature"
+  class="feature {{ include.class }}"
   {% if include.flip %}
     data-flip
   {% endif %}
 >
+  {% if include.embed %}
+    <div class="feature-image">
+      {{ include.embed }}
+    </div>
+  {% else %}
   <a
     {% if include.link %}
       href="{{ include.link | relative_url | uri_escape }}"
     {% endif %}
     class="feature-image"
+    data-fit="{{ include.fit | default: 'cover' }}"
     aria-label="{{ include.title | default: "feature link" | regex_strip }}"
   >
     <img
@@ -18,6 +24,7 @@
       {% include fallback.html %}
     >
   </a>
+  {% endif %}
   <div class="feature-text">
     {% if include.title %}
       <p class="feature-title">{{ include.title }}</p>

@@ -1,7 +1,7 @@
 ---
 title: Vacancy
 nav:
-  order: 4
+  order: 5
   tooltip: Musings and miscellany
 ---
 
@@ -9,17 +9,15 @@ nav:
 
 We are always looking for experienced researchers, passionate perspective and thesis students. If you are interested in working with us, please go through the open posiitons first. If you cannot find suitable positions, you are welcome to initiate an application with a detailed description of topics that you want to work on.
 
-<!-- {% include section.html %} -->
+{% include search-box.html %}
 
-<!-- {% include search-box.html %} -->
+{% include tags.html tags=site.tags %}
 
-<!-- {% include tags.html tags=site.tags %} -->
+{% include search-info.html %}
 
-<!-- {% include search-info.html %} -->
-
-<!-- {% include list.html data="posts" component="post-excerpt" %} -->
 
 {% include section.html %}
+## TA/RA Positions
 
 ## Master Projects
 These projects are primarily for students at TU Delft. If you are interested please see below the information that we require from you. Although projects can start anytime, most projects start in the fall and we try to announce them in the spring. We advise interested students to contact us several months before the intended start date.
@@ -31,4 +29,13 @@ If you do not find an interesting project, but you would like to join our group,
 
 In the following link you can find a list of available MSc projects. For announced projects, please first contact the daily supervisor to discuss the project.
 
-{% include post-excerpt.html lookup="master-projects" %}
+{% include list.html data="posts" component="post-excerpt" tags="master-project" %}
+
+
+<!-- {% include search-box.html %} -->
+
+<!-- {% include tags.html tags=site.tags %} -->
+
+<!-- {% include search-info.html %} -->
+
+<!-- {% include list.html data="posts" component="post-excerpt" %} -->
