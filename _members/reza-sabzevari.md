@@ -1,6 +1,6 @@
 ---
 name: Reza Sabzevari
-image: images/r_sabzevari.jpg
+image: images/member/r_sabzevari.jpg
 role: principal-investigator
 affiliation: Delft University of Technology
 aliases:
