@@ -1,1 +1,1 @@
-Sitemap: https://p4mars.github.io/website/sitemap.xml
+Sitemap: https://p4mars.github.io/sitemap.xml
