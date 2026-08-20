@@ -37,6 +37,17 @@ If you do not find an interesting project, but you would like to join our group,
 </details>
 <!-- For example in one of our industrial partners or collaborators (e.g., MIT, Stanford, ETH Zurich, Harvard, TUM, etc). Send an email to Prof. J. Alonso-Mora if interested. -->
 
+<details markdown="1">
+<summary>How to apply</summary>
+Students interested in a MSc project should contact the direct supervisor and provide the following information:
+- Why are you interested in this project? What would you like to achieve?
+- What is your experience relevant to this project? This could be past projects, past courses; theoretical knowledge or practical experience, related to constrained optimization, planning and/or robotics.
+- When would you like to start and which courses will you have left by then?
+- Is your motivation to do algorithmic work or applied research?
+- Your transcript of record with past courses, including which master & track you are following.
+- Available day/times to meet within one/two weeks.
+</details>
+
 In the following link you can find a list of available MSc projects. For announced projects, please first contact the daily supervisor to discuss the project.
 
 {% include list.html data="posts" component="post-excerpt" filter="Array(tags).any? { |t| ['master-project'].include?(t) }" %}
