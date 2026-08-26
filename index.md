@@ -1,9 +1,12 @@
 ---
 ---
-
 ## Research Interest
 
-P4MARS is an interdisciplinary research group focused on Perception and AI for Manufacturing, Robotics, and Space. Our research interests include geometric and semantic scene understanding, active perception, and distributed perception, with the application to robotics in manufacturing and space domains.
+p4MARS (Perception for Manufacturing, Automation, Robotics and Space) is an interdisciplinary research group at the intersection of robotics, agentic AI, and cognitive systems.
+The research in our group targets two classes of problems: automating high-variation tasks in complex and dynamic environments (such as inspection, repair and maintenance, and advanced manufacturing) and building the intelligence behind adaptive, resilient autonomous systems for extreme and unstructured environments, notably space.
+Robust autonomy is achieved through advanced perception coupled with high-fidelity digital models that mirror the physical world, enabling embodied and physically grounded intelligence. Our research spans spatial and agentic intelligence, interaction-aware and actionable world models, and evolving digital twins. 
+
+![Spatial AI](https://github.com/p4mars/P4MARS.github.io/blob/main/images/spatial-ai-2526Q4.jpg)
 
 {% include section.html %}
 
